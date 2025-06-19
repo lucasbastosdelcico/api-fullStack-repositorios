@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\GitHub\\TesteFullStackKRIA\\api-fullStack-repositorios\\CadastroRepositorio\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{838EC7A2-E111-472D-9AE5-E1838F304223}|CadastroRepositorio\\CadastroRepositorio.csproj|c:\\github\\testefullstackkria\\api-fullstack-repositorios\\cadastrorepositorio\\cadastrorepositorio\\infrastructure\\logging\\customerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{838EC7A2-E111-472D-9AE5-E1838F304223}|CadastroRepositorio\\CadastroRepositorio.csproj|solutionrelative:cadastrorepositorio\\infrastructure\\logging\\customerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{838EC7A2-E111-472D-9AE5-E1838F304223}|CadastroRepositorio\\CadastroRepositorio.csproj|c:\\github\\testefullstackkria\\api-fullstack-repositorios\\cadastrorepositorio\\cadastrorepositorio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{838EC7A2-E111-472D-9AE5-E1838F304223}|CadastroRepositorio\\CadastroRepositorio.csproj|solutionrelative:cadastrorepositorio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{838EC7A2-E111-472D-9AE5-E1838F304223}|CadastroRepositorio\\CadastroRepositorio.csproj|c:\\github\\testefullstackkria\\api-fullstack-repositorios\\cadastrorepositorio\\cadastrorepositorio\\controllers\\repositoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{838EC7A2-E111-472D-9AE5-E1838F304223}|CadastroRepositorio\\CadastroRepositorio.csproj|solutionrelative:cadastrorepositorio\\controllers\\repositoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{838EC7A2-E111-472D-9AE5-E1838F304223}|CadastroRepositorio\\CadastroRepositorio.csproj|c:\\github\\testefullstackkria\\api-fullstack-repositorios\\cadastrorepositorio\\cadastrorepositorio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{838EC7A2-E111-472D-9AE5-E1838F304223}|CadastroRepositorio\\CadastroRepositorio.csproj|solutionrelative:cadastrorepositorio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{838EC7A2-E111-472D-9AE5-E1838F304223}|CadastroRepositorio\\CadastroRepositorio.csproj|c:\\github\\testefullstackkria\\api-fullstack-repositorios\\cadastrorepositorio\\cadastrorepositorio\\domain\\data\\appcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{838EC7A2-E111-472D-9AE5-E1838F304223}|CadastroRepositorio\\CadastroRepositorio.csproj|solutionrelative:cadastrorepositorio\\domain\\data\\appcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerLogger.cs",
+              "DocumentMoniker": "C:\\GitHub\\TesteFullStackKRIA\\api-fullStack-repositorios\\CadastroRepositorio\\CadastroRepositorio\\Infrastructure\\Logging\\CustomerLogger.cs",
+              "RelativeDocumentMoniker": "CadastroRepositorio\\Infrastructure\\Logging\\CustomerLogger.cs",
+              "ToolTip": "C:\\GitHub\\TesteFullStackKRIA\\api-fullStack-repositorios\\CadastroRepositorio\\CadastroRepositorio\\Infrastructure\\Logging\\CustomerLogger.cs",
+              "RelativeToolTip": "CadastroRepositorio\\Infrastructure\\Logging\\CustomerLogger.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwD0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:56:13.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositoriesController.cs",
+              "DocumentMoniker": "C:\\GitHub\\TesteFullStackKRIA\\api-fullStack-repositorios\\CadastroRepositorio\\CadastroRepositorio\\Controllers\\RepositoriesController.cs",
+              "RelativeDocumentMoniker": "CadastroRepositorio\\Controllers\\RepositoriesController.cs",
+              "ToolTip": "C:\\GitHub\\TesteFullStackKRIA\\api-fullStack-repositorios\\CadastroRepositorio\\CadastroRepositorio\\Controllers\\RepositoriesController.cs",
+              "RelativeToolTip": "CadastroRepositorio\\Controllers\\RepositoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:53:23.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\GitHub\\TesteFullStackKRIA\\api-fullStack-repositorios\\CadastroRepositorio\\CadastroRepositorio\\appsettings.json",
+              "RelativeDocumentMoniker": "CadastroRepositorio\\appsettings.json",
+              "ToolTip": "C:\\GitHub\\TesteFullStackKRIA\\api-fullStack-repositorios\\CadastroRepositorio\\CadastroRepositorio\\appsettings.json",
+              "RelativeToolTip": "CadastroRepositorio\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-19T18:44:19.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GitHub\\TesteFullStackKRIA\\api-fullStack-repositorios\\CadastroRepositorio\\CadastroRepositorio\\Program.cs",
+              "RelativeDocumentMoniker": "CadastroRepositorio\\Program.cs",
+              "ToolTip": "C:\\GitHub\\TesteFullStackKRIA\\api-fullStack-repositorios\\CadastroRepositorio\\CadastroRepositorio\\Program.cs",
+              "RelativeToolTip": "CadastroRepositorio\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:41:22.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\GitHub\\TesteFullStackKRIA\\api-fullStack-repositorios\\CadastroRepositorio\\CadastroRepositorio\\Domain\\Data\\AppContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CadastroRepositorio\\Domain\\Data\\AppContext\\AppDbContext.cs",
+              "ToolTip": "C:\\GitHub\\TesteFullStackKRIA\\api-fullStack-repositorios\\CadastroRepositorio\\CadastroRepositorio\\Domain\\Data\\AppContext\\AppDbContext.cs",
+              "RelativeToolTip": "CadastroRepositorio\\Domain\\Data\\AppContext\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:32:39.729Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

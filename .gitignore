@@ -1,0 +1,79 @@
+
+
+## Ignore para projetos .NET Core / .NET 5+ ##
+
+# Compilação
+bin/
+obj/
+out/
+
+# Diretórios do usuário
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+*.temp
+
+# Arquivos de build do Rider e VS Code
+*.pidb
+*.svd
+
+# Arquivos do Visual Studio
+*.dbmdl
+*.bak
+*.Backup
+*.cache
+*.tlog
+*.vspscc
+*.vssscc
+*.orig
+
+# Arquivos de publish temporários
+.publish/
+
+# Configurações locais
+appsettings.*.json
+secrets.json
+
+# Diretórios do Visual Studio
+.vs/
+TestResults/
+packages/
+
+# Diretórios de pacotes e dependências
+node_modules/
+bower_components/
+packages/
+
+# Arquivos gerados por ferramentas
+*.nupkg
+*.snupkg
+*.psess
+*.vsp
+*.pdb
+
+# Dump de memória
+*.dmp
+
+# Arquivos de cobertura de código
+coverage/
+coverage.cobertura.xml
+*.coverage
+*.coveragexml
+
+# Build do docker
+docker-compose.override.yml
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Outros arquivos do Git
+*.orig
+

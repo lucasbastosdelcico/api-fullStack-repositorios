@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadastroRepositorio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83b1e8254791d27bec2b57e5166ecd05fa250712")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba8a5b20bb4db5424b2ccb46d8b506ec07cb3943")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadastroRepositorio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadastroRepositorio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
