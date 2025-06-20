@@ -1,0 +1,71 @@
+2025-06-19 16:01:57 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-19 16:01:57 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-19 16:01:57 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-19 16:01:57 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-19 16:01:57 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\CadastroRepositorio\CadastroRepositorio
+2025-06-19 20:12:27 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-19 20:12:27 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-19 20:12:27 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-19 20:12:27 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-19 20:12:27 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\CadastroRepositorio\CadastroRepositorio
+2025-06-19 20:12:52 [Error] (1) Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware: An unhandled exception has occurred while executing the request.
+2025-06-19 20:13:46 [Error] (1) Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware: An unhandled exception has occurred while executing the request.
+2025-06-19 20:15:22 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-19 20:15:22 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-19 20:15:22 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-19 20:15:22 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-19 20:15:22 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\CadastroRepositorio\CadastroRepositorio
+2025-06-19 20:20:22 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-19 20:21:04 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-19 20:22:46 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-19 20:22:46 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-19 20:22:46 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-19 20:22:46 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-19 20:22:46 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\CadastroRepositorio\CadastroRepositorio
+2025-06-19 20:25:07 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-19 20:26:17 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-19 20:27:49 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-19 20:27:49 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-19 20:27:49 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-19 20:27:49 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-19 20:27:49 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\CadastroRepositorio\CadastroRepositorio
+2025-06-19 20:33:13 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-19 20:33:22 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-19 20:33:31 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-19 20:40:58 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-19 20:41:31 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-19 20:41:31 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-19 20:41:32 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-19 20:41:32 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-19 20:41:32 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\CadastroRepositorio\CadastroRepositorio
+2025-06-19 20:42:15 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-19 20:42:34 [Error] (1) Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware: An unhandled exception has occurred while executing the request.
+2025-06-19 20:45:57 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-19 20:45:57 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-19 20:45:57 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-19 20:45:57 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-19 20:45:57 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\CadastroRepositorio\CadastroRepositorio
+2025-06-19 20:46:25 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-19 20:46:34 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-20 11:40:18 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-20 11:40:18 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-20 11:40:18 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-20 11:40:18 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-20 11:40:18 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\CadastroRepositorio\CadastroRepositorio
+2025-06-20 11:44:48 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-20 11:44:48 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-20 11:44:48 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-20 11:44:49 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-20 11:44:49 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\CadastroRepositorio\CadastroRepositorio
+2025-06-20 11:47:33 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-20 11:47:33 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-20 11:47:33 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-20 11:47:33 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-20 11:47:33 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\CadastroRepositorio\CadastroRepositorio
+2025-06-20 11:49:43 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-20 11:50:10 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-20 12:39:51 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-20 12:39:51 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-20 12:39:52 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-20 12:39:52 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-20 12:39:52 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\backend\CadastroRepositorio\CadastroRepositorio
