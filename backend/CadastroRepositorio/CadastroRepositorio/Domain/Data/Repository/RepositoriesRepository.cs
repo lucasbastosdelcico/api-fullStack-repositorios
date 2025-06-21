@@ -1,6 +1,7 @@
 ﻿using CadastroRepositorio.Domain.Abstractions.IRepository;
 using CadastroRepositorio.Domain.Data.AppContext;
 using CadastroRepositorio.Domain.Data.DTO;
+using CadastroRepositorio.Domain.Data.DTO.Generics;
 using CadastroRepositorio.Domain.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,26 +15,36 @@ namespace CadastroRepositorio.Domain.Data.Repository
             _context = context;
 
         }
-        public async Task<IEnumerable<Repositories>> GetAllAsync(RepositoriesParams rep)
+        public async Task<ReturnPages<Repositories>> GetAllAsync(RepositoriesParams rep)
         {
             var query = _context.Repositories.AsNoTracking().AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(rep.NomeRepositorio))
             {
-                query = query.Where(r => r.NomeRepositorio.Contains(rep.NomeRepositorio));
+                query = query.Where(r => r.NomeRepositorio.Trim().Contains(rep.NomeRepositorio.Trim()));
             }
 
             if (!string.IsNullOrWhiteSpace(rep.NomeDonoRepositorio))
             {
-                query = query.Where(r => r.NomeDonoRepositorio.Contains(rep.NomeDonoRepositorio));
+                query = query.Where(r => r.NomeDonoRepositorio.Trim().Contains(rep.NomeDonoRepositorio.Trim()));
             }
 
-            return await query
+            var total = await query.CountAsync();
+
+            var itens= await query
                 .Skip((rep.PageNumber - 1) * rep.PageSize)
                 .Take(rep.PageSize)
-                .AsNoTracking()
                 .ToListAsync();
+
+            var totalPages = (int)Math.Ceiling((double)total / rep.PageSize);
+
+            return new ReturnPages<Repositories>
+            {
+                Item = itens,
+                TotalCount = totalPages
+            };
         }
+
         public async Task<IEnumerable<Repositories>> GetFavoritosAsync()
         {
             return await _context.Repositories

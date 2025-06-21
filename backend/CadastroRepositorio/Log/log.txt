@@ -69,3 +69,94 @@
 2025-06-20 12:39:52 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
 2025-06-20 12:39:52 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
 2025-06-20 12:39:52 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\backend\CadastroRepositorio\CadastroRepositorio
+2025-06-20 17:56:21 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-20 17:56:21 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-20 17:56:21 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-20 17:56:21 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-20 17:56:21 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\backend\CadastroRepositorio\CadastroRepositorio
+2025-06-20 17:58:38 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-20 18:12:17 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-20 18:12:17 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-20 18:12:17 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-20 18:12:17 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-20 18:12:17 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\backend\CadastroRepositorio\CadastroRepositorio
+2025-06-20 18:17:03 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-20 18:33:47 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-20 18:39:06 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-20 18:39:23 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-20 19:18:59 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 11:19:43 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-21 11:19:43 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-21 11:19:43 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-21 11:19:43 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-21 11:19:44 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\backend\CadastroRepositorio\CadastroRepositorio
+2025-06-21 11:21:24 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 11:42:15 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 11:45:18 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 11:45:28 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 11:49:00 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 11:49:01 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 11:58:52 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 12:02:18 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-21 12:02:18 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-21 12:02:19 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-21 12:02:19 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-21 12:02:19 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\backend\CadastroRepositorio\CadastroRepositorio
+2025-06-21 12:02:51 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 12:02:59 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 12:03:46 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 12:04:52 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 12:06:45 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 12:24:47 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-21 12:24:47 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-21 12:24:47 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-21 12:24:48 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-21 12:24:48 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\backend\CadastroRepositorio\CadastroRepositorio
+2025-06-21 12:25:08 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 12:25:22 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 12:28:06 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 12:39:37 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 12:39:48 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 12:44:03 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 12:44:11 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 13:31:21 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 13:31:35 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 13:45:03 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-21 13:45:03 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-21 13:45:03 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-21 13:45:03 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-21 13:45:03 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\backend\CadastroRepositorio\CadastroRepositorio
+2025-06-21 13:56:58 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-21 13:56:58 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-21 13:56:59 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-21 13:56:59 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-21 13:56:59 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\backend\CadastroRepositorio\CadastroRepositorio
+2025-06-21 13:58:14 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7155
+2025-06-21 13:58:14 [Information] (14) Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5045
+2025-06-21 13:58:14 [Information] (0) Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-06-21 13:58:14 [Information] (0) Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-06-21 13:58:14 [Information] (0) Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\TesteFullStackKRIA\api-fullStack-repositorios\backend\CadastroRepositorio\CadastroRepositorio
+2025-06-21 14:03:00 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:10:59 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:11:05 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:11:17 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:11:25 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:11:31 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:11:39 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:11:46 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:11:52 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:11:58 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:12:04 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:12:11 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:12:23 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:48:30 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:49:35 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:49:40 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 14:57:50 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 15:04:10 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 15:41:30 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 15:41:31 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 16:27:16 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 16:27:17 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 16:27:17 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.
+2025-06-21 16:41:26 [Information] (30100) Microsoft.EntityFrameworkCore.Update: Saved 1 entities to in-memory store.

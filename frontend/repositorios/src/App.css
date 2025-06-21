@@ -1,0 +1,27 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #d4cccc;
+  font-family: Arial, sans-serif;
+}
+
+.botao-estrela {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;       
+  outline: none !important;         
+  box-shadow: none !important; 
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,6 +1,7 @@
 ﻿using CadastroRepositorio.Domain.Abstractions.IRepository;
 using CadastroRepositorio.Domain.Abstractions.IService;
 using CadastroRepositorio.Domain.Data.DTO;
+using CadastroRepositorio.Domain.Data.DTO.Generics;
 using CadastroRepositorio.Domain.Data.Entities;
 
 namespace CadastroRepositorio.Domain.Services
@@ -14,7 +15,7 @@ namespace CadastroRepositorio.Domain.Services
             _repositoriesRepository = repositoriesRepository ?? throw new ArgumentNullException(nameof(repositoriesRepository));
         }
 
-        public async Task<IEnumerable<Repositories>> GetAllAsync(RepositoriesParams rep)
+        public async Task<ReturnPages<Repositories>> GetAllAsync(RepositoriesParams rep)
         {
             return await _repositoriesRepository.GetAllAsync(rep).ConfigureAwait(false);
         }

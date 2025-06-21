@@ -19,13 +19,15 @@ namespace CadastroRepositorio.Controllers
         public async Task<IActionResult> GetAsync([FromQuery] RepositoriesParams rep)
         {
             var result = await _repositoryService.GetAllAsync(rep).ConfigureAwait(false);
-            if (result == null || !result.Any())
+
+            if (result.Item.Count() <= 0)
             {
                 return NotFound("No repositories found.");
             }
-            return Ok(result);
 
+            return Ok(result); 
         }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetByIdAsync([FromRoute] int id)
         {
