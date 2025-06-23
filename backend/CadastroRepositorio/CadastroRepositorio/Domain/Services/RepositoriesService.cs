@@ -61,5 +61,9 @@ namespace CadastroRepositorio.Domain.Services
             await _repositoriesRepository.UpdateAsync(entity);
             return true;
         }
+        public async Task<ReturnPages<Repositories>> GetMyRepositoriesAsync(RepositoriesParams rep) 
+        {
+            return await _repositoriesRepository.GetMyRepositoriesAsync(rep).ConfigureAwait(false); 
+        }
     }
 }

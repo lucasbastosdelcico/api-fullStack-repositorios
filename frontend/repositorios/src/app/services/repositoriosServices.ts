@@ -1,9 +1,9 @@
 import axios from 'axios';
 import type { Repository } from '../types/repository';
-import type { CreateRepositoryDto} from '../types/createRepository';
+import type { CreateRepositoryDto } from '../types/createRepository';
 
 type ApiResponse = {
-  Id: number, 
+  Id: number;
   NomeRepositorio: string;
   Descricao: string;
   Linguagem: string;
@@ -12,12 +12,18 @@ type ApiResponse = {
   IsFavorito: boolean;
 };
 
+type ApiMeusReposResponse = {
+  Item: ApiResponse[];
+  TotalCount: number;
+};
+
 type Filtros = {
   pageNumber: number;
   pageSize: number;
   nomeDonoRepositorio: string;
   nomeRepositorio: string;
 };
+
 export const updateFavorito = async (id: number, isFavorito: boolean): Promise<void> => {
   await axios.put(`https://localhost:7155/api/Repositories/favoritos/${id}/${isFavorito}`);
 };
@@ -33,7 +39,7 @@ export const deleteRepository = async (id: number): Promise<void> => {
 export const getRepositoryById = async (id: number): Promise<Repository> => {
   const response = await axios.get<ApiResponse>(`https://localhost:7155/api/Repositories/${id}`);
   const repo = response.data;
- 
+
   return {
     id: repo.Id,
     nomeRepositorio: repo.NomeRepositorio,
@@ -48,7 +54,6 @@ export const getRepositoryById = async (id: number): Promise<Repository> => {
 export const updateRepository = async (id: number, repository: CreateRepositoryDto): Promise<void> => {
   await axios.put(`https://localhost:7155/api/Repositories`, repository);
 };
-
 
 export const getRepositories = async (
   filtros: Filtros
@@ -75,7 +80,7 @@ export const getRepositories = async (
         modificationDate: repo.ModificationDate,
         isFavorito: repo.IsFavorito,
       })),
-      totalPaginas: data.TotalCount 
+      totalPaginas: data.TotalCount,
     };
   } catch (error) {
     console.error('Erro ao buscar repositórios:', error);
@@ -97,13 +102,29 @@ export const getRepositoriosFavoritos = async (): Promise<Repository[]> => {
     }));
   } catch (error) {
     if (axios.isAxiosError(error) && error.response?.status === 404) {
-      return []; 
+      return [];
     }
-
     throw error;
   }
 };
 
+export const getMeusRepositorios = async (): Promise<Repository[]> => {
+  try {
+    const response = await axios.get<ApiMeusReposResponse>('https://localhost:7155/api/Repositories/meus-repositorios');
 
-
-
+    return response.data.Item.map((repo) => ({
+      id: repo.Id,
+      nomeRepositorio: repo.NomeRepositorio,
+      descricao: repo.Descricao,
+      linguagem: repo.Linguagem,
+      nomeDonoRepositorio: repo.NomeDonoRepositorio,
+      modificationDate: repo.ModificationDate,
+      isFavorito: repo.IsFavorito,
+    }));
+  } catch (error) {
+    if (axios.isAxiosError(error) && error.response?.status === 404) {
+      return [];
+    }
+    throw error;
+  }
+};

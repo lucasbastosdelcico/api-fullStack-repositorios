@@ -88,5 +88,16 @@ namespace CadastroRepositorio.Controllers
             }
             return NoContent();
         }
+
+        [HttpGet("meus-repositorios")]
+        public async Task<IActionResult> GetMyRepositories([FromQuery] RepositoriesParams rep ) {
+
+            var result = await _repositoryService.GetMyRepositoriesAsync(rep).ConfigureAwait(false);
+            if (result == null)
+            {
+                return NotFound("No repositories found for the user.");
+            }
+            return Ok(result);
+        }
     }
 }

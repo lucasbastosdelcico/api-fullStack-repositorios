@@ -13,5 +13,6 @@ namespace CadastroRepositorio.Domain.Abstractions.IService
         Task UpdateAsync(Repositories repository);
         Task<bool> DeleteAsync(int id);
         Task<bool> UpdateIsFavoritoAsync(int id, bool isFavorito);
+        Task<ReturnPages<Repositories>> GetMyRepositoriesAsync(RepositoriesParams rep);
     }
 }

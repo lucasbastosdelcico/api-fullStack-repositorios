@@ -21,17 +21,17 @@ namespace CadastroRepositorio.Domain.Data.Repository
 
             if (!string.IsNullOrWhiteSpace(rep.NomeRepositorio))
             {
-                query = query.Where(r => r.NomeRepositorio.Trim().Contains(rep.NomeRepositorio.Trim()));
+                query = query.Where(r => r.NomeRepositorio.ToLower().Contains(rep.NomeRepositorio.ToLower()));
             }
 
             if (!string.IsNullOrWhiteSpace(rep.NomeDonoRepositorio))
             {
-                query = query.Where(r => r.NomeDonoRepositorio.Trim().Contains(rep.NomeDonoRepositorio.Trim()));
+                query = query.Where(r => r.NomeDonoRepositorio.ToLower().Contains(rep.NomeDonoRepositorio.ToLower()));
             }
 
             var total = await query.CountAsync();
 
-            var itens= await query
+            var itens = await query
                 .Skip((rep.PageNumber - 1) * rep.PageSize)
                 .Take(rep.PageSize)
                 .ToListAsync();
@@ -86,5 +86,28 @@ namespace CadastroRepositorio.Domain.Data.Repository
             return true;
         }
 
+        public async Task<ReturnPages<Repositories>> GetMyRepositoriesAsync(RepositoriesParams rep) 
+        {
+            string meuNome = "Lucas bastos delcico";
+            var query = _context.Repositories.AsNoTracking().AsQueryable();
+
+            query = query.Where(d => d.NomeDonoRepositorio.ToLower().Equals(meuNome.ToLower()));
+
+            var total = await query.CountAsync();
+
+            var itens = await query
+                .Skip((rep.PageNumber - 1) * rep.PageSize)
+                .Take(rep.PageSize)
+                .ToListAsync();
+
+            var totalPages = (int)Math.Ceiling((double)total / rep.PageSize);
+
+            return new ReturnPages<Repositories>
+            {
+                Item = itens,
+                TotalCount = totalPages
+            };
+
+        }
     }
 }

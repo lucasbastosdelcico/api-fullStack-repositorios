@@ -6,7 +6,6 @@ import {
   updateRepository
 } from '../../services/repositoriosServices';
 
-import './cadastroRepositorio.css';
 
 export const CadastroRepositorio = () => {
   const navigate = useNavigate();
@@ -71,6 +70,7 @@ export const CadastroRepositorio = () => {
             className="form-control"
             placeholder="Ex: meu-repositorio"
             value={nomeRepositorio}
+            maxLength={20}
             onChange={(e) => setNomeRepositorio(e.target.value)}
             required
           />
@@ -83,6 +83,7 @@ export const CadastroRepositorio = () => {
             className="form-control"
             placeholder="Ex: JavaScript"
             value={linguagem}
+            maxLength={20}
             onChange={(e) => setLinguagem(e.target.value)}
             required
           />
@@ -95,6 +96,7 @@ export const CadastroRepositorio = () => {
             className="form-control"
             placeholder="Nome do responsável"
             value={nomeDonoRepositorio}
+            maxLength={20}
             onChange={(e) => setNomeDonoRepositorio(e.target.value)}
             required
           />
@@ -106,6 +108,7 @@ export const CadastroRepositorio = () => {
             className="form-control"
             placeholder="Descreva o repositório"
             value={descricao}
+            maxLength={100}
             onChange={(e) => setDescricao(e.target.value)}
             required
           />
